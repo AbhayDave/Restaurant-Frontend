@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+  header {
+    height: 5vh;
+  }
+
+  
+  .logo{
+    width: 70%;
+  }
+
+
+  .NavBar{
+    display: none;
+  }
+
+  .NavBar .one{
+    display: none;
+  }
+
+  .NavBar .two{
+    display: none;
+  } 
+
+   
+
+  .order .icon{
+    display: block;
+}
+
+
+
+/* Hero Section Starts */
+
+  .hero {
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;
+  }
+
+  .hero-picture {
+    width: 100%;
+  }
+
+  .hero-picture .img-container{
+    border-radius: 0;
+}
+
+  .hero-text {
+    width: 100%;
+    border-top: 1px solid var(--macroon);
+    /* height: 100%; */
+  }
+
+  /* Hero Section ends */
+
+  /* Food Making Starts */
+
+  .hero-1 {
+    flex-direction: column;
+  }
+
+  .hero-1-text,
+  .ig-container {
+    width: 100%;
+  }
+
+  .hero-1 .ig-container .img-container-1,
+  .hero-1 .ig-container .img-container-2 {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  main {
+    width: 90%;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  .hero {
+    height: 50vh;
+  }
+
+  .hero-1 {
+    height: 45vh;
+  }
+}

@@ -1,0 +1,279 @@
+:root {
+  --primary-color: #444d1e;
+  --secondary-color: #9bab39;
+  --macroon: #f9e076;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+  /* font-family: 'Gochi Hand', cursive; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--macroon);
+  font-family: "Kanit", sans-serif; 
+}
+
+main {
+  /* border: 0.3rem solid var(--macroon); */
+  width: 90vw;
+  margin: 5vh auto;
+}
+
+header {
+  /* border: 0.2rem solid var(--macroon); */
+
+  font-family: "Kanit", sans-serif;
+  background-color: var(--primary-color);
+  height: 20vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.2rem solid var(--macroon);
+    border-left: 0.2rem solid var(--macroon);
+    border-right: 0.2rem solid var(--macroon);
+}
+
+.logo {
+  /* border: 0.2rem solid red; */
+  border-bottom: 0.3rem solid var(--macroon);
+  border-right: 0.3rem solid var(--macroon);
+  height: 100%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a {
+  text-align: center;
+}
+
+.logo a img {
+  height: 75%;
+  width: 75%;
+}
+
+.logo:hover {
+  transform: scale(0.8);
+}
+
+.NavBar {
+  /* border: 0.2rem   solid blue; */
+  height: 100%;
+  width: 70%;
+}
+
+.NavBar .one {
+  width: 100%;
+  height: 50%;
+  /* border-bottom: 0.2rem solid var(--macroon); */
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  letter-spacing: 10px;
+}
+
+.NavBar .two {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBar .two div {
+  height: 100%;
+  width: 25%;
+  color: var(--macroon);
+  /* border: 1px solid red; */
+  border-top: 0.3rem solid var(--macroon);
+  border-bottom: 0.2rem solid var(--macroon);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2vw;
+}
+
+.links {
+  /* color: var(--macroon); */
+  color: white;
+}
+
+.NavBar .two div:hover {
+  border-bottom: 0.2rem solid var(--macroon);
+  border-top: 0.2rem solid var(--macroon);
+  transform: scale(0.8);
+  /* font-size: 1rem; */
+}
+
+
+.order {
+  /* border: 0.2rem solid red; */
+  border-bottom: 0.2rem solid var(--macroon);
+  border-left: 0.3rem solid var(--macroon);
+  height: 100%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  /* color: var(--macroon); */
+}
+
+.order:hover {
+  transform: scale(0.8);
+  /* border: ; */
+}
+
+.order a {
+  color: var(--macroon);
+}
+
+
+
+/* Header Ends */
+
+
+
+/* Story starts */
+
+.stry{
+  margin: 4vh auto;
+  border: 0.3rem solid var(--macroon);
+  height: 120vh;
+  width: 100%;
+
+}
+
+.image-head-container{
+  height: 60%;
+  background-color: white;
+  position: relative;
+}
+
+.image-head{
+  background: url("/images/thali.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.image-head-heading{
+color: black;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+}
+
+.stry-text{
+  height: 50%;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.stry-text-heading{
+  text-align: center;
+  color: #444d1e;
+  font-size: 3vw;
+}
+
+.stry-text-container{
+  width: 70%;
+  padding: 1vw 0;
+  margin: 0vh auto;
+  text-align: center;
+  font-size: 2vw;
+}
+
+
+
+/* Story Ends */
+
+
+/* Footer Starts */
+footer{
+  margin: 4vh auto;
+  /* border: 0.1rem solid red; */
+  border: 0.3rem solid var(--macroon);
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-text{
+display: flex;
+align-items: center;
+height: 90% ;
+width: 100%;
+/* border: 2px solid red; */
+}
+
+.text-1{
+width: 50%;
+height: 100%;
+/* border: 1px solid yellow; */
+text-align: left;
+font-size: 2.5vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social-links{
+  width: 50%;
+height: 100%;
+/* border: 1px solid yellow; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+
+.vertical{
+  height: 70%;
+  border: 0.3rem solid var(--macroon);
+}
+
+.social-links div{
+  font-size: 3vw;
+  letter-spacing: 1vw;
+}
+
+.powered{
+  height: 10%;
+  width: 100%;
+  /* border: 2px solid red;   */
+  text-align: center;
+  background-color: var(--secondary-color);
+  font-size: 1.4vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Footer Ends */
+
